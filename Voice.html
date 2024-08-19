@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Assistant</title>
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        .back{
+            background-color: rgb(221, 226, 230);
+            padding: 8px;
+            border-radius: 8px;
+        }
+        img{
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container d-flex flex-column justify-content-center align-items-center vh-100">
+        <div class="back d-flex flex-column justify-content-center align-items-center">
+            <img src="robot.gif" alt="Virtual Assistant" class="img-fluid" style="width: 200px; height: 200px;">
+        <h1 class="text-center">Hello!</h1>
+        <p class="text-center">I am a virtual assistant, how may I help you?</p>
+        <button class="btn btn-primary talk d-flex align-items-center">
+            <i class="fas fa-microphone mr-2"></i>
+            <span>Talk</span>
+        </button>
+        <h4 class="content">Click the above button while speaking.</h4>
+        </div>
+    </div>
+    <script src="Voice.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
