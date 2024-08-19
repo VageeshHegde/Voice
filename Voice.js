@@ -49,7 +49,7 @@ btn.addEventListener('click', () => {
 })
 
 function takeCommand(message) {
-    if (message.includes('hey') || message.includes('hello')) {
+    if (message.includes('hey') || message.includes('hello') || message.includes('hi')) {
         speak("Hello Vageesh, how may I help you?");
     } else if (message.includes('open google')) {
         window.open("https://google.com", "_blank");
