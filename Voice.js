@@ -108,7 +108,7 @@ function takeCommand(message) {
   } else if (
     message.includes("what is the date") ||
     message.includes("what is today's date") ||
-    message.includes("Today's date")
+    message.includes("today's date")
   ) {
     const now = new Date();
     const date = now.toDateString();
