@@ -17,11 +17,11 @@ function wishMe() {
   var hour = day.getHours();
 
   if (hour >= 0 && hour < 12) {
-    speak("Good Morning Vageesh..");
+    speak("Good Morning Boss..");
   } else if (hour >= 12 && hour < 17) {
-    speak("Good Afternoon Vageesh..");
+    speak("Good Afternoon Boss..");
   } else {
-    speak("Good Evening Vageesh..");
+    speak("Good Evening Boss..");
   }
 }
 
@@ -54,7 +54,7 @@ function takeCommand(message) {
     message.includes("hello") ||
     message.includes("hi")
   ) {
-    speak("Hello Vageesh, how may I help you?");
+    speak("Hello Boss, how may I help you?");
   } else if (message.includes("open google")) {
     window.open("https://google.com", "_blank");
     speak("Opening Google..");
